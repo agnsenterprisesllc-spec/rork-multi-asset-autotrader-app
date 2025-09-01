@@ -3,10 +3,8 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start:web --port $PORT --non-interactive",
+    "start": "expo start --web --non-interactive --port 8080",
     "build": "expo build:web",
-    "start-web": "bunx rork start -p 9fdw58b38yq8fpvtdwpyb --web --tunnel",
-    "start-web-dev": "DEBUG=expo* bunx rork start -p 9fdw58b38yq8fpvtdwpyb --web --tunnel",
     "lint": "expo lint"
   },
   "dependencies": {
