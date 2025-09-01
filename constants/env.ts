@@ -1,6 +1,6 @@
 // Environment configuration - deployed backend
-export const DEFAULT_REST = "https://autotrader-backend-production-8b2c.up.railway.app/api";
-export const DEFAULT_WS = "wss://autotrader-backend-production-8b2c.up.railway.app/api/ws";
+export const DEFAULT_REST = "https://web-production-be7cf.up.railway.app/api";
+export const DEFAULT_WS = "wss://web-production-be7cf.up.railway.app/api/ws";
 
 // Fallback URLs for development
 export const DEV_REST = "http://localhost:8000/api";
