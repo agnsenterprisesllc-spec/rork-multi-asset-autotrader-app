@@ -3,7 +3,7 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start --web --non-interactive --port 8080",
+    "start": "expo start --web --non-interactive --port $PORT",
     "build": "expo build:web",
     "lint": "expo lint"
   },
